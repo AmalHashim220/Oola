@@ -1,0 +1,29 @@
+src/
+ ├── app/
+ │    ├── page.tsx
+ │    ├── layout.tsx
+ │    ├── admin-dashboard/
+ │    │      └── page.tsx
+ │    ├── products/
+ │    │      └── page.tsx
+ │    └── globals.css
+ │
+ ├── components/
+ │    ├── Navbar.tsx
+ │    ├── Hero.tsx
+ │    ├── ProductCard.tsx
+ │    ├── SellerRequests.tsx
+ │    └── Footer.tsx
+ │
+ ├── lib/
+ │    └── firebase.ts
+ │
+ └── services/
+      ├── products.ts
+      └── sellers.ts
+
+public/
+ ├── manifest.json
+ ├── sw.js
+ └── icons/
+      └── oola-icon.png
